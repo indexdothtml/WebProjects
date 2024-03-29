@@ -9,9 +9,13 @@ body {
     font-style: normal;
 }
 
+.first {
+    height: 100vh;
+}
+
 .bgImg {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     position: absolute;
@@ -69,8 +73,9 @@ body {
 .hero {
     /* background-color: violet; */
     display: flex;
+    margin-top: 10px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 80vh;
     line-height: 1.4cm;
@@ -110,6 +115,12 @@ body {
     border-radius: 5px;
 }
 
+.usr-signup-btn:hover {
+    background-color: #d21313e0;
+    cursor: pointer;
+    transition: .4s;
+}
+
 .signup-container {
     display: flex;
     gap: 5px;
@@ -139,12 +150,57 @@ body {
     left: 15px;
 }
 
-.usr-signup-input:focus+label {
+.usr-signup-input:focus+label, .usr-signup-input:valid+label {
     transform: scale(.8) translateY(-20px) translateX(-10px);
     transition: transform .5s;
 }
 
-.usr-signup-input:not(:focus)+label {
-    /* transform: translateY(5px) translateX(10px); */
+
+.usr-signup-input:not(:focus)+label, .usr-signup-input:empty+label {
     transition: transform .5s;
+} 
+
+.hr-line {
+    width: 100wh;
+    padding: 4px 0px;
+    background-color: #625d5d;
+    position: relative;
+    top: 81px;
+}
+
+.second {
+    height: 80vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.second div {
+    color: white;
+}
+
+.second>div>img {
+    width: 500px;
+}
+
+.second>div>video {
+    width: 400px;
+    grid-column: 2/3;
+}
+
+.second>div>h2 {
+    font-size: 45px;
+    line-height: 2cm;
+}
+
+.second>div>p {
+    font-size: 25px;
+}
+
+.second>div:nth-child(1) {
+    padding: 0px 100px;
 }
