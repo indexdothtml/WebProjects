@@ -1,0 +1,37 @@
+{
+  "name": "random-data-generator",
+  "version": "1.0.0",
+  "description": "Random Employee Data Generator",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indexdothtml/WebProjects.git#main"
+  },
+  "keywords": [
+    "Random",
+    "Data",
+    "Employee",
+    "Data",
+    "Random",
+    "Data",
+    "Random",
+    "Data",
+    "Generator"
+  ],
+  "author": "Abhishek Kshirsagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indexdothtml/WebProjects/issues"
+  },
+  "homepage": "https://github.com/indexdothtml/WebProjects/tree/main#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  }
+}
