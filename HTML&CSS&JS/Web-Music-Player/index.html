@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Not4-Music-Player</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/utility.css">
+</head>
+<body>
+    <div class="main flex-row">
+        <div class="leftSection flex-column yAxisCenter">
+            <div class="websiteName">
+                4 Not 4
+            </div>
+            <div class="albumImage">
+                <img src="assets/images/Albums/test4.jpg" alt="">
+            </div>
+            <div class="currentSongName flex-row xAxisCenter yAxisCenter">
+                <p>Song Name</p>
+            </div>
+            <div class="musicController flex-row xAxisCenter">
+                <img src="assets/icons/previous.svg" alt="previous">
+                <img src="assets/icons/playCircle.svg" alt="play circle">
+                <img src="assets/icons/next.svg" alt="next">
+            </div>
+            <div class="timeAndDuration flex-row xAxisCenter yAxisCenter">
+                00:00 / 00:00
+            </div>
+            <div class="seekBar">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="rightSection flex-row xAxisCenter">
+            <div class="playlistSectionBackground">
+                <div class="playlists flex-column yAxisCenter">
+
+                    <!-- <div class="playlistCard flex-column yAxisCenter">
+                        <div class="playlistImage">
+
+                        </div>
+                        <div class="playlistName">
+                            <p>Playlist name is very very long</p>
+                        </div>
+                        <div class="authorName">
+                            <p>Author Name</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="songsSectionBackground">
+                <div class="songs flex-column yAxisCenter">
+                    
+                    <div class="songCard">
+                        <div class="songName">
+                            <p>Song name is very very</p>
+                        </div>
+                        <div class="authorAndDuration flex-row">
+                            <div>
+                                <p>Author Name is very very long</p>
+                            </div>
+                            <div>
+                                <p>00:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js" type="module" onload="loadScrollAnimation()"></script>
+    <script>
+        function loadScrollAnimation() {
+            let scriptTag = document.createElement("script");
+            scriptTag.src = "scripts/scrollAnimation.js";
+            document.getElementsByTagName("body")[0].append(scriptTag);
+        }
+    </script>
+</body>
+</html>

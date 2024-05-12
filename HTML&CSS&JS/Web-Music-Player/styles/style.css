@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #D9D9D9;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Left Section of Website */
+
+.websiteName {
+    font-size: 40px;
+    color: #3E3838;
+    margin: 25px 0px 25px 0px;
+}
+
+.leftSection,
+.rightSection {
+    height: 100vh;
+    width: 50vw;
+}
+
+.albumImage {
+    width: 235px;
+    height: 235px;
+    border: 4px solid #3E3838;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: clip;
+}
+
+.albumImage img {
+    width: 235px;
+    height: 237px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.currentSongName {
+    width: 243px;
+    height: 40px;
+    background-color: #B5B2B2;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    color: #3E3838;
+    overflow: hidden;
+}
+
+.currentSongName p {
+    text-wrap: nowrap;
+}
+
+.musicController {
+    width: 243px;
+    height: 90px;
+    background-color: #5C5656;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.musicController img {
+    width: 55px;
+}
+
+.timeAndDuration {
+    width: 243px;
+    height: 30px;
+    background-color: #B5B2B2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #3E3838;
+}
+
+.seekBar {
+    width: 243px;
+    height: 5px;
+    background-color: #5C5656;
+    border-radius: 8px;
+}
+
+.seekBar .circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 8px;
+    background-color: #5C5656;
+    position: relative;
+    bottom: 4px;
+}
+
+/* Right Section of Website */
+
+.playlistSectionBackground {
+    background-color: #C6BFBF;
+    height: 581px;
+    width: 280px;
+    margin-top: 38px;
+    border-radius: 15px;
+}
+
+.playlists {
+    margin-top: 60px;
+    height: 467px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    gap: 20px;
+}
+
+.playlistCard {
+    background-color: #474141;
+    height: 219px;
+    width: 195px;
+    border-radius: 15px;
+}
+
+.playlistCard:hover {
+    cursor: pointer;
+}
+
+.playlistImage {
+    background-color: #C6BFBF;
+    height: 137px;
+    width: 140px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.playlistName,
+.authorName,
+.songName,
+.authorAndDuration {
+    color: #C5C0C0;
+}
+
+.playlistName {
+    margin: 10px 0px 5px 0px;
+    overflow: hidden;
+}
+
+.playlistName p {
+    text-wrap: nowrap;
+}
+
+.authorName {
+    margin: 5px 0px 5px 0px;
+    overflow: hidden;
+}
+
+.authorName p {
+    text-wrap: nowrap;
+}
+
+.rightSection {
+    gap: 45px;
+}
+
+.songsSectionBackground {
+    background-color: #C6BFBF;
+    height: 581px;
+    width: 280px;
+    margin-top: 38px;
+    border-radius: 15px;
+}
+
+.songs {
+    margin-top: 60px;
+    height: 467px;
+    overflow: auto;
+    gap: 20px;
+}
+
+.songCard {
+    background-color: #474141;
+    height: 53px;
+    width: 233px;
+    border-radius: 15px;
+}
+
+.songName, .authorAndDuration {
+    margin: 5px 0px 5px 16px;
+    overflow: hidden;
+}
+
+.songName p {
+    text-wrap: nowrap;
+    width: min-content;
+}
+
+.authorAndDuration>div:first-child {
+    width: 110px;
+    overflow: hidden;
+}
+
+.authorAndDuration>div:first-child p{
+    text-wrap: nowrap;
+    width: min-content;
+}
+
+.authorAndDuration {
+    gap: 20px;
+}

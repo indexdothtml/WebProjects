@@ -1,0 +1,41 @@
+{
+    "playlists": [
+      {
+        "name": "Chill Vibes",
+        "author": "John Doe",
+        "songs": [
+          {
+            "name": "Sunset Boulevard",
+            "author": "Emma Smith"
+          },
+          {
+            "name": "Ocean Waves",
+            "author": "Jack Johnson"
+          },
+          {
+            "name": "Lazy Afternoon",
+            "author": "Sarah Brown"
+          }
+        ]
+      },
+      {
+        "name": "Workout Mix",
+        "author": "Jane Smith",
+        "songs": [
+          {
+            "name": "Eye of the Tiger",
+            "author": "Survivor"
+          },
+          {
+            "name": "Stronger",
+            "author": "Kanye West"
+          },
+          {
+            "name": "We Will Rock You",
+            "author": "Queen"
+          }
+        ]
+      }
+    ]
+  }
+  

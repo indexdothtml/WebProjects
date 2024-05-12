@@ -1,0 +1,50 @@
+/* animations */
+@keyframes scrollingEffect {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.redBorder {
+    border: 2px solid red;
+}
+
+.blueBorder {
+    border: 2px solid blue;
+}
+
+.greenBorder {
+    border: 2px solid green;
+}
+
+.blackBorder {
+    border: 2px solid black;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.xAxisCenter {
+    justify-content: center;
+}
+
+.yAxisCenter {
+    align-items: center;
+}
+
+
+/* Add overflow hidden in parent element */
+/* Add text-wrap as nowrap */
+.scrollingAnimation {
+    animation: scrollingEffect 10s linear infinite;
+}
