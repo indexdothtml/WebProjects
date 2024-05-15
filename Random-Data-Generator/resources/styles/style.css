@@ -16,14 +16,55 @@ main {
 
 .screen {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     border: 2px solid black;
-    width: 500px;
     background-color: rgb(212, 205, 191);
     color: black;
+    border-radius: 15px;
+    height: 310px;
+    width: 570px;
+    gap: 26px;
+}
+
+.labels {
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.inputs {
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 h3 {
     font-size: 35px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.button>button {
+    margin-top: 15px;
+    height: 40px;
+    width: 165px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px aqua;
+    cursor: pointer;
+}
+
+.button>button:hover {
+    box-shadow: 0px 0px 3px aqua;
+    transition: 1s linear ease;
 }

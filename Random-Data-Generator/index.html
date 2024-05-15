@@ -1,32 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
     <link rel="stylesheet" href="resources/styles/style.css">
 </head>
+
 <body>
     <main>
         <h3>Randam Employee Data Generator</h3>
-        <div class="screen">
-            <label for="name">Name</label>
-            <input type="text" id="name">
+        <div class="screen"> 
+            <div class="labels">
+                <div>
+                    <label for="name">Name</label>
+                </div>
+    
+                <div>
+                    <label for="salary">Salary</label>
+                </div>
+    
+                <div>
+                    <label for="language">Language</label>
+                </div>
+    
+                <div>
+                    <label for="manager">Manager</label>
+                </div>
+    
+                <div>
+                    <label for="yoe">Year Of Experience</label>
+                </div>
+    
+                <div>
+                    <label for="city">City</label>
+                </div>
+            </div>
+            <div class="inputs">
+                <div>
+                    <input type="text" id="name">
+                </div>
+    
+                <div>
+                    <input type="text" id="salary">
+                </div>
+    
+                <div>
+                    <input type="text" id="language">
+                </div>
+    
+                <div>
+                    <input type="text" id="manager">
+                </div>
+    
+                <div>
+                    <input type="text" id="yoe">
+                </div>
+    
+                <div>
+                    <input type="text" id="city">
+                </div>
+            </div>
 
-            <label for="salary">Salary</label>
-            <input type="text" id="salary">
-
-            <label for="language">Language</label>
-            <input type="text" id="language">
-
-            <label for="manager">Manager</label>
-            <input type="text" id="manager">
-
-            <label for="yoe">Year Of Experience</label>
-            <input type="text" id="yoe">
-
-            <label for="city">City</label>
-            <input type="text" id="city">
         </div>
         <div class="button">
             <button>Generate</button>
@@ -35,4 +71,5 @@
 
     <script src="resources/scripts/script.js"></script>
 </body>
+
 </html>
