@@ -22,6 +22,6 @@ You will not able to save empty tasks.
 3. Tasks will scroll in given height if more tasks are present than hight of the page. Page will not scroll.
 4. If no tasks are available then "No Tasks to Show" message will show below the input.
 
-## This is how it looks like
-![This is how it looks like](./Todo-List/Image/AppPreview.png)
+## Preview
+![This is how it looks like](./Image/AppPreview.png)
 
